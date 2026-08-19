@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>الموقع الشخصي</title>
+    <title>Muamal Ahmed | البطاقة التعريفية</title>
     <style>
         * {
             box-sizing: border-box;
@@ -20,47 +20,85 @@
             align-items: center;
             padding: 20px;
         }
-        .container {
+        .card {
             background-color: #1e293b;
             border: 1px solid #334155;
-            border-radius: 16px;
+            border-radius: 20px;
             padding: 40px;
-            max-width: 500px;
+            max-width: 450px;
             width: 100%;
             text-align: center;
-            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+        }
+        .avatar {
+            width: 100px;
+            height: 100px;
+            background: linear-gradient(135deg, #0284c7, #38bdf8);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: white;
+            margin: 0 auto 20px;
+            box-shadow: 0 4px 15px rgba(56, 189, 248, 0.3);
         }
         h1 {
             color: #38bdf8;
-            font-size: 2rem;
-            margin-bottom: 10px;
+            font-size: 1.8rem;
+            margin-bottom: 8px;
+        }
+        .subtitle {
+            color: #38bdf8;
+            font-size: 0.95rem;
+            font-weight: 600;
+            margin-bottom: 15px;
+            letter-spacing: 0.5px;
         }
         p {
             color: #94a3b8;
-            font-size: 1.1rem;
+            font-size: 0.95rem;
             line-height: 1.6;
             margin-bottom: 25px;
         }
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
         .btn {
-            display: inline-block;
-            background-color: #0ea5e9;
-            color: #ffffff;
-            padding: 12px 28px;
-            border-radius: 8px;
+            display: block;
+            background-color: #334155;
+            color: #f8fafc;
+            padding: 12px;
+            border-radius: 10px;
             text-decoration: none;
-            font-weight: bold;
-            transition: background-color 0.3s ease;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            border: 1px solid transparent;
         }
         .btn:hover {
             background-color: #0284c7;
+            color: #ffffff;
+            border-color: #38bdf8;
+            transform: translateY(-2px);
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>أهلاً بك في موقعي الشخصي</h1>
-        <p>تم إطلاق هذا الموقع بنجاح واستضافته عبر GitHub Pages.</p>
-        <a href="#" class="btn">تواصل معي</a>
+    <div class="card">
+        <div class="avatar">MA</div>
+        <h1>Muamal Ahmed</h1>
+        <div class="subtitle">Electrical Engineering</div>
+        <p>مرحباً بك في موقعي الشخصي! مهندس كهرباء أعمل على مشاريع المحاكاة والتطوير التقني.</p>
+        
+        <div class="links">
+            <a href="https://github.com/amwml1247-byte" target="_blank" class="btn">معرض المشاريع على GitHub</a>
+            <a href="#" class="btn">تواصل معي عبر تلغرام</a>
+        </div>
     </div>
 </body>
 </html>
+       
+       
